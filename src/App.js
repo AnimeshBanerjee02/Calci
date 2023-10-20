@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Components/Header/Header";
 import KeyPad from "./Components/KeyPad/KeyPad";
 
-import moonIcon from "D:\\Importants\\Ethanus mern stack internship program course\\React\\calculator\\src\\Assets\\moon.png";
-import sunIcon from "D:\\Importants\\Ethanus mern stack internship program course\\React\\calculator\\src\\Assets\\sun.png";
+
 
 import "./App.css";
 
@@ -103,7 +102,7 @@ function App() {
               }`}
             />
           </div>
-          <img src={isDarkMode ? moonIcon : sunIcon} alt="mode" />
+          
         </div>
 
         <Header expression={expression} result={result} history={history} />
